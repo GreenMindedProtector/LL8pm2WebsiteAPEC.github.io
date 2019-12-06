@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>8pm2 - Life Labs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+@media screen and (max-width: 455px) {
+    .h3 {
+        font-size:16px;
+    }
+}
+body{
+  height: 100%;
+  background-color: blue;
+  background-image: linear-gradient(to left,#C2DFFF, #9AFEFF);
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+h1 {text-align: center;   text-shadow: 3px 3px black; color: #B1FB17; font-family: Verdana;}
+
+article {
+    background-color: #CCFFFF;
+    border: 10px outset darkblue;
+    width : auto;
+    padding : 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: 60px;
+        box-shadow: 5px 10px 8px #888888;
+    }
+    p {
+      font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-size: 42px;
+    background-color: #CCFFFF;
+    border: 10px solid darkblue;
+    width : auto;
+
+    margin: 10px;
+    text-align: center;
+    }
+    img {
+    background-color: #CCFFFF;
+    border: 10px ridge darkblue;
+    width : 40%;
+    margin: 10px;
+    text-align: center;
+    }
+    h2 {
+    background-color: #CCFFFF;
+    border: 10px solid darkblue;
+    width : auto;
+    margin: 10px;
+    text-align: left;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-size: 42px;
+    }
+    h3 {
+    background-color: #CCFFFF;
+    border: 10px solid darkblue;
+    width : auto;
+    margin: 10px;
+    text-align: center;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-size: 50px;
+    
+    }
+    
+</style>
+<body>
+<div class="w3-container w3-blue">
+  <h1>8pm2 Group 3 - Green Minded Protectors</h1>
+</div>
+
+<div class="w3-sidebar w3-white w3-card-4 w3-animate-left" style="width:200px; height:auto" id="mySidebar">
+  <div class="w3-bar w3-cyan">
+  <span class="w3-bar-item w3-padding-16">Topics</span>
+  <button onclick="w3_close()"
+  class="w3-bar-item w3-button w3-right w3-padding-16" title="close Sidebar">&times;</button>
+  </div>
+  <div class="w3-bar-block">
+  <a class="w3-bar-item w3-button" href="Background Of Problem & Solution.html">Background of the Problem & Solution</a>
+  <a class="w3-bar-item w3-button" href="Cause.html">Causes of the Problem</a>
+    <a class="w3-bar-item w3-button" href="Prototype.html">Early & Latest Prototype</a>
+  <a class="w3-bar-item w3-button" href="usability test & results.html">Usability Test & Results</a>
+  <a class="w3-bar-item w3-button" href="AboutUs.html">Home/About Us</a>
+
+  </div>
+</div>
+
+<div id="main" style="margin-left:200px">
+
+<div class="w3-container w3-display-container">
+  <span title="open Sidebar" style="display:none" id="openNav" class="w3-button w3-transparent w3-display-topleft w3-xlarge" onclick="w3_open()">&#9776;</span>
+</div>
+
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "180px";
+  document.getElementById("mySidebar").style.width = "180px";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+<article>The Solution</article>
+<br>
+<br>
+<br>
+<br>
+<h3>How it works</h3>
+<img src="https://scontent.fcrk3-1.fna.fbcdn.net/v/t1.15752-9/78413285_446171732971197_4129545715766525952_n.jpg?_nc_cat=102&_nc_eui2=AeGSP3Pzz6XXRHCNbr-1tO2S2XCWToW-87--6y4XjasOVnnqG1o4P_prHwsr2pQj-eG4lH08X8LwGc3tNpkAEyTQM4frM3DxBldvmLL7_lJsFg&_nc_ohc=xgpNVtdCtPYAQn4F0wVDBJq2lJr7uM-iIWIu3gN2pWfbV0dfMfJjKlECw&_nc_ht=scontent.fcrk3-1.fna&oh=bde2da1cca62cc6b97c001ecdac641a5&oe=5E42D853" alt="peepeepoopoo "style="float:right">
+<h2>The Solution will work like most websites, it would have a navigation bar for easy access, an about page, and a scroll-based layout<br><br></h2>
+<br>
+<br>
+<br>
+<br>
+<h3>Features</h3>
+<img src="https://scontent.fcrk3-1.fna.fbcdn.net/v/t1.15752-9/74506621_2438755946391763_2615936087457005568_n.jpg?_nc_cat=109&_nc_eui2=AeEWkdQ5W2attBpX_XzIzok2znZ4-7Xq84Y2-BkM91BVYr-nkeVaS4gAMhCcoT8B4_Jvkf3WOT_K6vW64ukDNfGf7FftNT8pktow9EuSyh49tg&_nc_ohc=82GNNKqzq2QAQkFyCzY6Ljh42vwRrWrtRTfrv8Uu5TWvykXRCIr2MfxWw&_nc_ht=scontent.fcrk3-1.fna&oh=917ca8cc8822e7e3a57ddde97ed4e099&oe=5E759325" alt="porpoloplo" style="float:right">
+<h2>the features of this solution are as follows: Information about paper and plastic usage, Visual Aids about the said topic, and occasional videos related to the said topic
+<br><br></h2>
+<br>
+<br>
+<br>
+<br>
+<h3>Benefits</h3>
+<p>>It can influence people to help save our environment<br>>It can help change the behavior of other people by letting other people see the damage of trash through our website<br>>It will spread more knowledge easily and people can absorb it more quickly, which in turn can help them become more knowledgable</p>
+
+
+
+<br>
+<br>
+<p>footer info</p>
+
+
+
+      
+</body>
+</html>
